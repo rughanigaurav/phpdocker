@@ -1,0 +1,29 @@
+version: "3.0"
+volumes:
+  vscode_data:
+    driver: local
+services:
+  php:
+    build: php
+    links:
+      - mysql:mysql
+    volumes:
+      - ./app:/app:rw
+      - vscode_data:/root/.vscode-server
+    ports:
+      - 8080:80
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ./mysql57:/var/lib/mysql
+    command: mysqld --sql_mode=""
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mysql:db
+    ports:
+      - 8081:80
