@@ -67,9 +67,9 @@ Successfully tagged docker_php:latest
 
 #### run the Docker
 
-```bash
+<!-- ```bash
 $ docker-compose up
-```
+``` -->
 
 # Do below steps to run the project
 
@@ -82,3 +82,9 @@ $ docker-compose up
 4---> phpmyadmin should run in localhost:8081
 
 5---> project should run in localhost:8080
+
+#### run the Docker
+
+```bash
+$ docker-compose up
+```
