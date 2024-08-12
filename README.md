@@ -79,12 +79,11 @@ $ docker-compose up
 
 3---> Run this command to provide permission (sudo chmod -R 777 app\*)
 
-4---> After that build and run doker images using below commands
+4---> After that run doker images using below command
 
 #### run the Docker
 
 ```bash
-$ docker-compose build
 $ docker-compose up
 
 ```
