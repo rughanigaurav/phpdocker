@@ -81,4 +81,4 @@ $ docker-compose up
 
 # phpmyadmin should run in localhost:8081
 
-# project should run in localhost:80
+# project should run in localhost:8080
