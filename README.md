@@ -73,13 +73,11 @@ $ docker-compose up
 
 # Do below steps to run the project
 
-1---> Create app folder in project directory
+1---> Provide 777 permission to app folder -- Use this command (sudo chmod -R 777 app/\*)
 
-2---> Provide 777 permission to app folder
+2---> Your project directory is app/public (I already configured a sample file index.php in app/public directory)
 
-3---> Run this command to provide permission (sudo chmod -R 777 app/\*)
-
-4---> After that run doker images using below command
+2---> After that run doker images using below command
 
 #### run the Docker
 
@@ -88,6 +86,6 @@ $ docker-compose up
 
 ```
 
-6---> phpmyadmin should run in localhost:8081
+3---> phpmyadmin should run in localhost:8081
 
-7---> project should run in localhost:8080
+4---> project should run in localhost:8080
