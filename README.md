@@ -77,7 +77,7 @@ $ docker-compose up
 
 2---> Provide 777 permission to app folder
 
-3---> Run this command to provide permission (sudo chmod -R 777 app\*)
+3---> Run this command to provide permission (sudo chmod -R 777 app/\*)
 
 4---> After that run doker images using below command
 
