@@ -77,7 +77,7 @@ $ docker-compose up
 
 2---> Provide 777 permission to app folder
 
-3---> Create your project files in app folder
+3---> Create public folder in app directory and save your project files in public folder
 
 # phpmyadmin should run in localhost:8081
 
