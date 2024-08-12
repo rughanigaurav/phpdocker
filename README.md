@@ -79,12 +79,16 @@ $ docker-compose up
 
 3---> Run this command to provide permission (sudo chmod -R 777 app\*)
 
-4---> phpmyadmin should run in localhost:8081
-
-5---> project should run in localhost:8080
+4---> After that build and run doker images using below commands
 
 #### run the Docker
 
 ```bash
+$ docker-compose build
 $ docker-compose up
+
 ```
+
+6---> phpmyadmin should run in localhost:8081
+
+7---> project should run in localhost:8080
