@@ -73,7 +73,7 @@ $ docker-compose up
 
 # Do below steps to run the project
 
-1---> Create app folder in docker directory
+1---> Create app folder in project directory
 
 2---> Provide 777 permission to app folder
 
