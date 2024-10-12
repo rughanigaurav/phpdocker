@@ -1,5 +1,5 @@
 <?php
 
-echo "hello wold"
+echo "hello From PHP-Container"
 
 ?>
