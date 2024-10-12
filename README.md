@@ -73,7 +73,7 @@ $ docker-compose up
 
 # Do below steps to run the project
 
-1---> Provide 777 permission to app folder -- Use this command (sudo chmod -R 777 app/\*)
+1---> Provide 777 permission to app folder -- Use this command for ubuntu (sudo chmod -R 777 app/\*)
 
 2---> Your project directory is app/public (I already configured a sample file index.php in app/public directory)
 
